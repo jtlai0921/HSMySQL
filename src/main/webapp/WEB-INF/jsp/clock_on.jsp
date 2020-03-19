@@ -48,6 +48,7 @@
                         <th>員工編號</th>
                         <th>簽到時段</th>
                         <th>簽到時間</th>
+                        <th width="200">簽到影像</th>
                     </tr>
                 </thead>
 
@@ -58,6 +59,7 @@
                             <td>${item.empNo}</td>
                             <td>${item.statusId}</td>
                             <td>${item.clockOn}</td>
+                            <td><img src="${item.image}" width="50" onclick="this.style.width = '200px'" ondblclick="this.style.width = '50px'"></td>
                         </tr>
                     </c:forEach>
                 </tbody>
