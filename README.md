@@ -1,4 +1,5 @@
 # HSMySQL
+<pre>
 -- 1.安裝 MySQL Community
 -- https://dev.mysql.com/downloads/mysql/
 
@@ -47,3 +48,4 @@ CREATE TABLE ClockOn(
     FOREIGN KEY (emp_no) REFERENCES Employee(emp_no), -- 外鍵(Employee 編號)
     FOREIGN KEY (status_id) REFERENCES Status(status_id) -- 外鍵(Status序號)
 );
+</pre>
